@@ -1,8 +1,11 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "engines": {
+    "node": "16.x"
+ },
   "scripts": {
-    "start:dev": "yarn run dev --port=3000",
+    "start:dev": "node .output/server/index.mjs",
     "start:backend": "cd ./backend && yarn pm2 -f start index.js",
     "start:ai": "cd ./backend/ai-service && flask run",
     "start": "concurrently \"yarn start:dev\" \"yarn start:backend\" \"yarn start:ai\"",
@@ -31,4 +34,5 @@
     "sass": "^1.57.1",
     "vuetify": "^3.1.2"
   }
+  
 }
