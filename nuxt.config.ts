@@ -1,16 +1,13 @@
 // @ts-ignore
 export default defineNuxtConfig({
-	css: [
-		'~/assets/scss/main.scss',
-	],
+	css: ['vuetify/lib/styles/main.sass'],
+	build: {
+		transpile: ['vuetify'],
+	},
 	vite: {
-		css: {
-			preprocessorOptions: {
-				sass: {
-					//additionalData: '//SASS\n	@import "@/assets/sass/variables.sass"',
-				}
-			}
-		}
+		define: {
+			'process.env.DEBUG': false,
+		},
 	},
 	runtimeConfig: {
 		public: {
