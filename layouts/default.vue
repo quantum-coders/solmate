@@ -1,14 +1,10 @@
 <template>
-    <div>
-		<NuxtPage />
-    </div>
+  <v-app>
+    <site-app-bar />
+    <NuxtPage />
+  </v-app>
 </template>
 
-<script>
+<script></script>
 
-
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

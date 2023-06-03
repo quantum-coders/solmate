@@ -1,0 +1,171 @@
+---
+English
+User: I'd like to send some Solana to my friend's wallet.
+Bot: Sure, could you please provide me the receiver's wallet address and the amount you wish to send?
+User: The wallet address is 3H3msANurfDQaEAwq3W9aYGo3EvgwBqyDkQJKUQX2mB3 and I want to send 10 SOL.
+Bot: Okay, I have noted down the details. Do you confirm this transaction? 
+User: Yes, I confirm.
+JSON: {"action": "transfer", "details": {"sender": "me", "receiver": "<receiver_account_id>", "amount": 10.0}}
+---
+English
+User: Can I request a payment from someone in Solana?
+Bot: Of course, could you please provide me the wallet address from which you want to request the payment and the amount?
+User: The wallet address is 4V8uKec7G9TZq7UzN9pPCW4eMJ6cV3zC9GJX1i1UZFcC and I want to request 5 SOL.
+Bot: Okay, I have noted down the details. Do you confirm this payment request? 
+User: Yes, I confirm.
+JSON: {"action": "request_SOL", "details": {"account_id": "<your_account_id>", "amount": 10.0}}
+---
+English
+User: Can you check the balance of my Solana wallet?
+Bot: Sure, could you please provide me with your wallet address?
+User: My wallet address is 5FZ8bUgL7PnbD7FVdxBgyguFQtBjLgD2WReZ3kVZGZwp.
+Bot: Okay, let me check that for you.
+JSON: {"action": "check_balance", "details": {"account_id": "<your_account_id>"}}
+---
+Spanish
+Usuario: Me gustaría enviar algo de Solana a la cartera de mi amigo.
+Bot: Claro, ¿podrías proporcionarme la dirección de la cartera del receptor y la cantidad que deseas enviar?
+JSON: {"action": "transfer", "details": {"sender": "me", "receiver": "<receiver_account_id>", "amount": 10.0}}
+---
+Spanish
+Usuario: La dirección de la cartera es 3H3msANurfDQaEAwq3W9aYGo3EvgwBqyDkQJKUQX2mB3 y quiero enviar 10 SOL.
+Bot: De acuerdo, he anotado los detalles. ¿Confirmas esta transacción? 
+Usuario: Sí, confirmo.
+JSON: {"action": "transfer", "details": {"sender": "me", "receiver": "<receiver_account_id>", "amount": 10.0}}
+---
+Spanish
+Usuario: ¿Puedo solicitar un pago a alguien en Solana?
+Bot: Por supuesto, ¿podrías proporcionarme la dirección de la cartera de la que quieres solicitar el pago y la cantidad?
+Usuario: La dirección de la cartera es 4V8uKec7G9TZq7UzN9pPCW4eMJ6cV3zC9GJX1i1UZFcC y quiero solicitar 5 SOL.
+Bot: De acuerdo, he anotado los detalles. ¿Confirmas esta solicitud de pago? 
+Usuario: Sí, confirmo.
+JSON: {"action": "request_SOL", "details": {"account_id": "<your_account_id>", "amount": 10.0}}
+---
+Usuario: ¿Puedes verificar el saldo de mi cartera Solana?
+Bot: Claro, ¿podrías proporcionarme tu dirección de cartera?
+Usuario: Mi dirección de cartera es 5FZ8bUgL7PnbD
+7FVdxBgyguFQtBjLgD2WReZ3kVZGZwp.
+Bot: De acuerdo, déjame verificarlo por ti.
+JSON: {"action": "check_balance", "details": {"account_id": "<your_account_id>"}}
+---
+English
+User: I need to check my Solana wallet balance.
+Bot: Sure, could you please provide me with your wallet address?
+User: My wallet address is 8TqMW5vR6qX5qXRp4r8b9Tq3dcZQxgLLdyADNTUzqUu4.
+Bot: Alright, let me fetch that information for you.
+JSON: {"action": "check_balance", "details": {"account_id": "<your_account_id>"}}
+---
+English
+User: I want to transfer 20 SOL from my wallet to another account.
+Bot: Absolutely, please provide me the recipient's wallet address and the amount you want to transfer.
+User: The wallet address is 7Eo4xGy9G1w82pRTuvgM8w1hG89Q1XAF8Z6AvbbyX2Ma and I wish to send 20 SOL.
+Bot: Noted. Shall I proceed with this transaction?
+User: Yes, go ahead.
+JSON: {"action": "transfer", "details": {"sender": "me", "receiver": "<receiver_account_id>", "amount": 20.0}}
+---
+English
+User: Can I request a payment of 15 SOL from someone?
+Bot: Certainly, could you please provide me the wallet address you want to request the payment from and the amount?
+User: The wallet address is 9D2dU4nvqm5n2Ug8zDby2TqT3Kb9URbyJJdLYAysNc5x and I'd like to request 15 SOL.
+Bot: Understood. Should I proceed with this payment request?
+User: Yes, please.
+JSON: {"action": "request_SOL", "details": {"account_id": "<your_account_id>", "amount": 15.0}}
+---
+Spanish
+Usuario: Necesito verificar el saldo de mi cartera Solana.
+Bot: Claro, ¿podrías proporcionarme tu dirección de cartera?
+Usuario: Mi dirección de cartera es 8TqMW5vR6qX5qXRp4r8b9Tq3dcZQxgLLdyADNTUzqUu4.
+Bot: Muy bien, déjame obtener esa información para ti.
+JSON: {"action": "check_balance", "details": {"account_id": "<your_account_id>"}}
+---
+Spanish
+Usuario: Quiero transferir 20 SOL desde mi cartera a otra cuenta.
+Bot: Por supuesto, por favor proporciona la dirección de la cartera del destinatario y la cantidad que deseas transferir.
+Usuario: La dirección de la cartera es 7Eo4xGy9G1w82pRTuvgM8w1hG89Q1XAF8Z6AvbbyX2Ma y deseo enviar 20 SOL.
+Bot: Anotado. ¿Debo proceder con esta transacción?
+Usuario: Sí, adelante.
+JSON: {"action": "transfer", "details": {"sender": "me", "receiver": "<receiver_account_id>", "amount": 20.0}}
+---
+Spanish
+Usuario: ¿Puedo solicitar un pago de 15 SOL a alguien?
+Bot: Claro, ¿podrías proporcionarme la dirección de la cartera de la que quieres solicitar el pago y la cantidad?
+Usuario: La dirección de la cartera es 9D2dU4nvqm5n2Ug8zDby2TqT3Kb9URbyJJdLYAysNc5x y
+Usuario:me gustaría solicitar 15 SOL.
+Bot: Entendido. ¿Debo proceder con esta solicitud de pago?
+Usuario: Sí, por favor.
+JSON: {"action": "request_SOL", "details": {"account_id": "<your_account_id>", "amount": 15.0}}
+---
+English
+User: How much balance do I have in my Solana wallet?
+Bot: Certainly, could you please provide me with your wallet address?
+User: My wallet address is 6sHx7hScjF9VLmL1m2oJEqDv9zhazxu4ubCRaAb8mg7X.
+Bot: Let me check that for you.
+JSON: {"action": "check_balance", "details": {"account_id": "<your_account_id>"}}
+---
+English
+User: I want to transfer 50 SOL to another wallet.
+Bot: Sure, could you please provide me the recipient's wallet address and the amount you wish to transfer?
+User: The wallet address is A4rJSmexKYB1g6VHa8xnbUaxc9JxjyhfdpYzcUPQHeNd and I want to send 50 SOL.
+Bot: Noted. Do you confirm this transfer?
+User: Yes, confirm.
+JSON: {"action": "transfer", "details": {"sender": "me", "receiver": "<receiver_account_id>", "amount": 50.0}}
+---
+English
+User: Can I request a payment of 25 SOL from someone?
+Bot: Absolutely, could you please provide me the wallet address from which you want to request the payment and the amount?
+User: The wallet address is 7FzVKehgZ8DNUy7GLUH72nY7xUUsAaQbDM9NHy7gXRP2 and I want to request 25 SOL.
+Bot: Understood. Confirm this payment request, please.
+User: Yes, confirm.
+JSON: {"action": "request_SOL", "details": {"account_id": "<your_account_id>", "amount": 25.0}}
+---
+Spanish
+Usuario: ¿Cuánto saldo tengo en mi cartera Solana?
+Bot: Claro, ¿podrías proporcionarme tu dirección de cartera?
+Usuario: Mi dirección de cartera es 6sHx7hScjF9VLmL1m2oJEqDv9zhazxu4ubCRaAb8mg7X.
+Bot: Permíteme verificar eso por ti.
+JSON: {"action": "check_balance", "details": {"account_id": "<your_account_id>"}}
+---
+Spanish
+Usuario: Quiero transferir 50 SOL a otra cartera.
+Bot: Claro, ¿podrías proporcionarme la dirección de la cartera del destinatario y la cantidad que deseas transferir?
+Usuario: La dirección de la cartera es A4rJSmexKYB1g6VHa8xnbUaxc9JxjyhfdpYzcUPQHeNd y quiero enviar 50 SOL.
+Bot: Anotado. ¿Confirmas esta transferencia?
+Usuario: Sí, confirmo.
+JSON: {"action": "transfer", "details": {"sender": "me", "receiver": "<receiver_account_id>", "amount": 50.0}}
+---
+Spanish
+Usuario: ¿Puedo solicitar un pago de 25 SOL a alguien?
+Bot: Por supuesto, ¿podrías proporcionarme la dirección de la cartera de la que quieres solicitar el pago y la cantidad?
+Usuario: La dirección de la cartera es 7FzVKehgZ8DNUy7GLUH72nY7xUUsAaQbDM9NHy7gXRP2 y quiero solicitar 25 SOL.
+Bot: Entendido. Confirma esta solicitud de pago, por favor.
+Usuario: Sí, confirmo.
+JSON: {"action": "request_SOL", "details": {"account_id": "<your_account_id>", "amount": 25.0}}
+---
+English:
+User: I'd like to open a new account.
+Bot: Of course, would you like to get a new Solana account?
+User: Yes, please.
+Bot: Alright!
+JSON: {"action": "create_account", "details": {"account_id": "<your_account_id>", "amount": 0}}
+---
+English:
+User: I'm thinking of setting up an account.
+Bot: Sure, are you interested in a new Solana account?
+User: Yes, that's correct.
+Bot: Perfect!
+JSON: {"action": "create_account", "details": {"account_id": "<your_account_id>", "amount": 0}}
+---
+Spanish:
+Usuario: Estoy pensando en abrir una cuenta.
+Bot: Claro, ¿estás interesado en una nueva cuenta de Solana?
+Usuario: Sí, eso es correcto.
+Bot: ¡Perfecto!
+JSON: {"action": "create_account", "details": {"account_id": "<your_account_id>", "amount": 0}}
+---
+Spanish:
+Usuario: Hola! quiero crear una cuenta
+Bot: Claro, ¿estás interesado en una nueva cuenta de Solana?
+Usuario: Sí, eso es correcto.
+Bot: ¡Perfecto!
+JSON: {"action": "create_account", "details": {"account_id": "<your_account_id>", "amount": 0}}
+---

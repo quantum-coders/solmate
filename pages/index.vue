@@ -1,12 +1,9 @@
 <template>
-    <div>
-            <v-card>
-                <v-card-title>Hola!!</v-card-title>
-            </v-card>
-    </div>
+
+                <Chatbox />
 </template>
 
-<script>
+<script setup>
 
 </script>
 
