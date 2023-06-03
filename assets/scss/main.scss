@@ -1,0 +1,40 @@
+@import "node_modules/bootstrap/scss/_functions";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_mixins";
+
+// Overwrite bootstrap sass variables (check _variables for all options)
+$enable-negative-margins: true;
+$navbar-light-color: $dark;
+$font-family-sans-serif: 'Poppins', sans-serif;
+$font-family: 'Poppins', sans-serif;
+$font-size-base: .85rem;
+$input-btn-padding-x: 1rem;
+$border-radius: 2px;
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px,
+	xxl: 1280px
+);
+
+body {
+
+	overflow-x: hidden;
+	width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.purple {
+	color: #6400AE;
+}
