@@ -5,10 +5,7 @@
     "node": "16.x"
  },
   "scripts": {
-    "start:dev": "node .output/server/index.mjs",
-    "start:backend": "cd ./backend && yarn pm2 -f start index.js",
-    "start:ai": "cd ./backend/ai-service && flask run",
-    "start": "concurrently \"yarn start:dev\" \"yarn start:backend\" \"yarn start:ai\"",
+    "start": "node .output/server/index.mjs",
     "build": "nuxt build",
     "dev": "nuxt dev --port=3000",
     "generate": "nuxt generate",
