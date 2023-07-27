@@ -1,9 +1,0 @@
-pandas
-datasets
-matplotlib
-openai==0.27.0
-plotly
-scipy
-scikit-learn
-tiktoken
-solana
